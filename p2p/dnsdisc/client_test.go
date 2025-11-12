@@ -27,7 +27,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/bestyourwallet/go-metadium/common/mclock"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/internal/testlog"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"

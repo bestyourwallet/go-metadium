@@ -26,7 +26,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/core/beacon"
 	"github.com/bestyourwallet/go-metadium/core/rawdb"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/eth/downloader"
 	"github.com/bestyourwallet/go-metadium/eth/ethconfig"
 	"github.com/bestyourwallet/go-metadium/les"

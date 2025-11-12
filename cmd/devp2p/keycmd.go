@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )

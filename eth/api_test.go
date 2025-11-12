@@ -28,7 +28,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/core/rawdb"
 	"github.com/bestyourwallet/go-metadium/core/state"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

@@ -24,7 +24,7 @@ import (
 	"reflect"
 
 	"github.com/bestyourwallet/go-metadium/common"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // MakeTopics converts a filter query argument list into a filter topic set.

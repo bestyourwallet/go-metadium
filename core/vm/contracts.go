@@ -24,11 +24,11 @@ import (
 
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/common/math"
-	"github.com/bestyourwallet/go-metadium/crypto"
-	"github.com/bestyourwallet/go-metadium/crypto/blake2b"
-	"github.com/bestyourwallet/go-metadium/crypto/bls12381"
-	"github.com/bestyourwallet/go-metadium/crypto/bn256"
-	"github.com/bestyourwallet/go-metadium/crypto/vrf"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/blake2b"
+	"github.com/ethereum/go-ethereum/crypto/bls12381"
+	"github.com/ethereum/go-ethereum/crypto/bn256"
+	"github.com/ethereum/go-ethereum/crypto/vrf"
 	"github.com/bestyourwallet/go-metadium/params"
 
 	//lint:ignore SA1019 Needed for precompile

@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/bestyourwallet/go-metadium/common/bitutil"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

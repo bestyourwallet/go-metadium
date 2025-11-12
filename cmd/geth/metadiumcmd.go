@@ -25,7 +25,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/common/hexutil"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/ethclient"
 	"github.com/bestyourwallet/go-metadium/metadium/metclient"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"

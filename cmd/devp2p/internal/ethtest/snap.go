@@ -23,7 +23,7 @@ import (
 	"math/rand"
 
 	"github.com/bestyourwallet/go-metadium/common"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/eth/protocols/snap"
 	"github.com/bestyourwallet/go-metadium/internal/utesting"
 	"github.com/bestyourwallet/go-metadium/light"

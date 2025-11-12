@@ -35,7 +35,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common/hexutil"
 	"github.com/bestyourwallet/go-metadium/common/math"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var typedDataReferenceTypeRegexp = regexp.MustCompile(`^[A-Z](\w*)(\[\])?$`)

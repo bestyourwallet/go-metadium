@@ -30,7 +30,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/consensus/ethash"
 	"github.com/bestyourwallet/go-metadium/core"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/eth"
 	"github.com/bestyourwallet/go-metadium/eth/downloader"
 	"github.com/bestyourwallet/go-metadium/eth/ethconfig"

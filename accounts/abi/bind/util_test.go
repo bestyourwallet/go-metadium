@@ -28,7 +28,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/core"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

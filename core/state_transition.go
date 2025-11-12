@@ -25,7 +25,7 @@ import (
 	cmath "github.com/bestyourwallet/go-metadium/common/math"
 	"github.com/bestyourwallet/go-metadium/core/types"
 	"github.com/bestyourwallet/go-metadium/core/vm"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
 	"github.com/bestyourwallet/go-metadium/params"
 )

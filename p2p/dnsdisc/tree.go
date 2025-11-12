@@ -26,7 +26,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"
 	"github.com/bestyourwallet/go-metadium/p2p/enr"
 	"github.com/bestyourwallet/go-metadium/rlp"

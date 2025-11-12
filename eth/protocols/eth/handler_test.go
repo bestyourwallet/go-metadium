@@ -29,7 +29,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/core/state"
 	"github.com/bestyourwallet/go-metadium/core/types"
 	"github.com/bestyourwallet/go-metadium/core/vm"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/ethdb"
 	"github.com/bestyourwallet/go-metadium/p2p"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"

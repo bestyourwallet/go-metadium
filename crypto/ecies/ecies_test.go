@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestKDF(t *testing.T) {

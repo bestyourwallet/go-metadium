@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"github.com/bestyourwallet/go-metadium/cmd/utils"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

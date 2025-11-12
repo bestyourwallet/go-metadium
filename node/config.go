@@ -26,7 +26,7 @@ import (
 	"sync"
 
 	"github.com/bestyourwallet/go-metadium/common"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/p2p"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"

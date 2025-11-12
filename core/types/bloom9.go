@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	"github.com/bestyourwallet/go-metadium/common/hexutil"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 type bytesBacked interface {

@@ -31,7 +31,7 @@ import (
 
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/common/mclock"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/event"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/p2p/discover"

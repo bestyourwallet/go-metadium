@@ -26,7 +26,7 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/node"
 	"github.com/bestyourwallet/go-metadium/p2p"

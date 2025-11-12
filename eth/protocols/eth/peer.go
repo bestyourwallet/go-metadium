@@ -25,7 +25,7 @@ import (
 	mapset "github.com/deckarep/golang-set"
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
 	"github.com/bestyourwallet/go-metadium/p2p"
 	"github.com/bestyourwallet/go-metadium/rlp"

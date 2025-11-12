@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/go-metadium/common"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

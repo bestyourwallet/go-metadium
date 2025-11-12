@@ -24,7 +24,7 @@ import (
 
 	"github.com/bestyourwallet/go-metadium/cmd/devp2p/internal/v4test"
 	"github.com/bestyourwallet/go-metadium/common"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/p2p/discover"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"
 	"github.com/bestyourwallet/go-metadium/params"

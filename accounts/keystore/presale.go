@@ -26,7 +26,7 @@ import (
 	"fmt"
 
 	"github.com/bestyourwallet/go-metadium/accounts"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

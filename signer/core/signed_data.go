@@ -27,7 +27,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common/hexutil"
 	"github.com/bestyourwallet/go-metadium/consensus/clique"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/rlp"
 	"github.com/bestyourwallet/go-metadium/signer/core/apitypes"
 )

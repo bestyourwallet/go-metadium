@@ -44,7 +44,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/p2p"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"
 	"github.com/bestyourwallet/go-metadium/p2p/simulations"

@@ -34,7 +34,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/consensus/misc"
 	"github.com/bestyourwallet/go-metadium/core/state"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/ethdb"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/params"

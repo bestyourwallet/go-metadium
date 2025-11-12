@@ -25,7 +25,7 @@ import (
 	"os"
 
 	"github.com/bestyourwallet/go-metadium/cmd/utils"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/p2p/discover"
 	"github.com/bestyourwallet/go-metadium/p2p/enode"

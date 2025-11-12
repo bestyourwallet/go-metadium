@@ -27,7 +27,7 @@ import (
 	"strconv"
 
 	"github.com/bestyourwallet/go-metadium/common/math"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/p2p/enr"
 )
 

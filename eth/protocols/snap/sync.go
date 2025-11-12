@@ -33,7 +33,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/core/state"
 	"github.com/bestyourwallet/go-metadium/core/state/snapshot"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/ethdb"
 	"github.com/bestyourwallet/go-metadium/event"
 	"github.com/bestyourwallet/go-metadium/light"

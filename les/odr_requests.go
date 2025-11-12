@@ -24,7 +24,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/core/rawdb"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/ethdb"
 	"github.com/bestyourwallet/go-metadium/light"
 	"github.com/bestyourwallet/go-metadium/log"

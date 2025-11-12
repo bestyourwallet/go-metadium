@@ -40,7 +40,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/common/hexutil"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/internal/ethapi"
 	"github.com/bestyourwallet/go-metadium/internal/flags"
 	"github.com/bestyourwallet/go-metadium/log"

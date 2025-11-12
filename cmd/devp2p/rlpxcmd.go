@@ -21,7 +21,7 @@ import (
 	"net"
 
 	"github.com/bestyourwallet/go-metadium/cmd/devp2p/internal/ethtest"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/internal/utesting"
 	"github.com/bestyourwallet/go-metadium/p2p"
 	"github.com/bestyourwallet/go-metadium/p2p/rlpx"

@@ -41,7 +41,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/core"
 	"github.com/bestyourwallet/go-metadium/core/rawdb"
 	"github.com/bestyourwallet/go-metadium/core/vm"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/eth"
 	ethcatalyst "github.com/bestyourwallet/go-metadium/eth/catalyst"
 	"github.com/bestyourwallet/go-metadium/eth/downloader"

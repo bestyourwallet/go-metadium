@@ -58,7 +58,7 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/bestyourwallet/go-metadium/common"
-	"github.com/bestyourwallet/go-metadium/crypto/signify"
+	"github.com/ethereum/go-ethereum/crypto/signify"
 	"github.com/bestyourwallet/go-metadium/internal/build"
 	"github.com/bestyourwallet/go-metadium/params"
 )

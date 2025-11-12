@@ -31,7 +31,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common/hexutil"
 	"github.com/bestyourwallet/go-metadium/contracts/checkpointoracle"
 	"github.com/bestyourwallet/go-metadium/contracts/checkpointoracle/contract"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/go-metadium/ethclient"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/params"

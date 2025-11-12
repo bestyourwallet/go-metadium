@@ -22,7 +22,7 @@ import (
 	"github.com/bestyourwallet/go-metadium"
 	"github.com/bestyourwallet/go-metadium/accounts"
 	"github.com/bestyourwallet/go-metadium/core/types"
-	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original
