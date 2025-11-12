@@ -30,14 +30,14 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/core/rawdb"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/bestyourwallet/go-metadium/ethdb"
+	"github.com/bestyourwallet/go-metadium/ethdb/leveldb"
+	"github.com/bestyourwallet/go-metadium/ethdb/memorydb"
+	"github.com/bestyourwallet/go-metadium/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

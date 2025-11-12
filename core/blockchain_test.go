@@ -26,20 +26,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/common/math"
+	"github.com/bestyourwallet/go-metadium/consensus"
+	"github.com/bestyourwallet/go-metadium/consensus/beacon"
+	"github.com/bestyourwallet/go-metadium/consensus/ethash"
+	"github.com/bestyourwallet/go-metadium/core/rawdb"
+	"github.com/bestyourwallet/go-metadium/core/state"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/core/vm"
+	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/bestyourwallet/go-metadium/eth/tracers/logger"
+	"github.com/bestyourwallet/go-metadium/ethdb"
+	"github.com/bestyourwallet/go-metadium/params"
+	"github.com/bestyourwallet/go-metadium/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1592,7 +1592,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/ethereum/go-ethereum/pull/15941
+// https://github.com/bestyourwallet/go-metadium/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1868,8 +1868,8 @@ func TestInsertReceiptChainRollback(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/ethereum/go-ethereum/issues/18977
-//   - https://github.com/ethereum/go-ethereum/pull/18988
+//   - https://github.com/bestyourwallet/go-metadium/issues/18977
+//   - https://github.com/bestyourwallet/go-metadium/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

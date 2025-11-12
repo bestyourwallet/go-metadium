@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
-	"github.com/ethereum/go-ethereum/params"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

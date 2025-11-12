@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/bestyourwallet/go-metadium/core/state"
+	"github.com/bestyourwallet/go-metadium/core/vm"
+	"github.com/bestyourwallet/go-metadium/eth/tracers/logger"
+	"github.com/bestyourwallet/go-metadium/log"
+	"github.com/bestyourwallet/go-metadium/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

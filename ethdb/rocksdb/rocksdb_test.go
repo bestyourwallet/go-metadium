@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/dbtest"
+	"github.com/bestyourwallet/go-metadium/ethdb"
+	"github.com/bestyourwallet/go-metadium/ethdb/dbtest"
 )
 
 type EphemeralRDB struct {

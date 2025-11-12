@@ -25,16 +25,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/core/rawdb"
+	"github.com/bestyourwallet/go-metadium/core/state/snapshot"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/eth/protocols/snap"
+	"github.com/bestyourwallet/go-metadium/ethdb"
+	"github.com/bestyourwallet/go-metadium/event"
+	"github.com/bestyourwallet/go-metadium/log"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 var (

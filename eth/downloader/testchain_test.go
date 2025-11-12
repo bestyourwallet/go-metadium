@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/consensus/ethash"
+	"github.com/bestyourwallet/go-metadium/core"
+	"github.com/bestyourwallet/go-metadium/core/rawdb"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/core/vm"
+	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 // Test chain parameters.

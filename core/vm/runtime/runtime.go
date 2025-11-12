@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/core/rawdb"
+	"github.com/bestyourwallet/go-metadium/core/state"
+	"github.com/bestyourwallet/go-metadium/core/vm"
+	"github.com/bestyourwallet/go-metadium/crypto"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

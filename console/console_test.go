@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/consensus/ethash"
+	"github.com/bestyourwallet/go-metadium/console/prompt"
+	"github.com/bestyourwallet/go-metadium/core"
+	"github.com/bestyourwallet/go-metadium/eth"
+	"github.com/bestyourwallet/go-metadium/eth/ethconfig"
+	"github.com/bestyourwallet/go-metadium/internal/jsre"
+	"github.com/bestyourwallet/go-metadium/miner"
+	"github.com/bestyourwallet/go-metadium/node"
 )
 
 const (

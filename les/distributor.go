@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/les/utils"
+	"github.com/bestyourwallet/go-metadium/common/mclock"
+	"github.com/bestyourwallet/go-metadium/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

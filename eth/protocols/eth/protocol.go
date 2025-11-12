@@ -22,11 +22,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	metaapi "github.com/ethereum/go-ethereum/metadium/api"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/core/forkid"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
+	"github.com/bestyourwallet/go-metadium/rlp"
 )
 
 // Constants to match up protocol versions and messages

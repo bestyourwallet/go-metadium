@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/bestyourwallet/go-metadium/core"
+	"github.com/bestyourwallet/go-metadium/core/state"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/core/vm"
+	"github.com/bestyourwallet/go-metadium/light"
 )
 
 // stateAtBlock retrieves the state database associated with a certain block.

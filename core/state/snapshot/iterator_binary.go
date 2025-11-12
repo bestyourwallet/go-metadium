@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-metadium/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

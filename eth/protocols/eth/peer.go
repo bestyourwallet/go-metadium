@@ -23,12 +23,12 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	metaapi "github.com/ethereum/go-ethereum/metadium/api"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/crypto"
+	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
+	"github.com/bestyourwallet/go-metadium/p2p"
+	"github.com/bestyourwallet/go-metadium/rlp"
 )
 
 const (

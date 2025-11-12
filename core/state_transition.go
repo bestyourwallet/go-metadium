@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium/common"
+	cmath "github.com/bestyourwallet/go-metadium/common/math"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/core/vm"
+	"github.com/bestyourwallet/go-metadium/crypto"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

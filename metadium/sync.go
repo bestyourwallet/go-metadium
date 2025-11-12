@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	metaapi "github.com/ethereum/go-ethereum/metadium/api"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/common/lru"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/log"
+	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 // cached governance data to derive miner's enode

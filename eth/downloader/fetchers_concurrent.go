@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/common/prque"
+	"github.com/bestyourwallet/go-metadium/eth/protocols/eth"
+	"github.com/bestyourwallet/go-metadium/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

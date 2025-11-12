@@ -26,10 +26,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/common/hexutil"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
+	"github.com/bestyourwallet/go-metadium/rlp"
 )
 
 var (

@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/eth/protocols/eth"
+	"github.com/bestyourwallet/go-metadium/eth/protocols/snap"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
+	"github.com/bestyourwallet/go-metadium/p2p"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 var (

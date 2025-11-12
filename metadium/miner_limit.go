@@ -10,13 +10,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
-	metaapi "github.com/ethereum/go-ethereum/metadium/api"
-	"github.com/ethereum/go-ethereum/metadium/metclient"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
+	"github.com/bestyourwallet/go-metadium"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/ethclient"
+	"github.com/bestyourwallet/go-metadium/log"
+	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
+	"github.com/bestyourwallet/go-metadium/metadium/metclient"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
 )
 
 // collect mining peers states

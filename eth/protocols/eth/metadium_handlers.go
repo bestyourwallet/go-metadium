@@ -3,8 +3,8 @@ package eth
 import (
 	"fmt"
 
-	metaapi "github.com/ethereum/go-ethereum/metadium/api"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
+	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
 )
 
 func handleGetPendingTxs(backend Backend, msg Decoder, peer *Peer) error {

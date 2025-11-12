@@ -11,12 +11,12 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/metadium/metclient"
+	"github.com/bestyourwallet/go-metadium/accounts/keystore"
+	"github.com/bestyourwallet/go-metadium/cmd/utils"
+	"github.com/bestyourwallet/go-metadium/common"
+	"github.com/bestyourwallet/go-metadium/core/types"
+	"github.com/bestyourwallet/go-metadium/ethclient"
+	"github.com/bestyourwallet/go-metadium/metadium/metclient"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/tests/fuzzers/difficulty"
+	"github.com/bestyourwallet/go-metadium/tests/fuzzers/difficulty"
 )
 
 func main() {

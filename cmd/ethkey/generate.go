@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/bestyourwallet/go-metadium/accounts/keystore"
+	"github.com/bestyourwallet/go-metadium/cmd/utils"
+	"github.com/bestyourwallet/go-metadium/crypto"
 	"github.com/google/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/bestyourwallet/go-metadium
 
 go 1.19
 

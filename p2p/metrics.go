@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/bestyourwallet/go-metadium/metrics"
 )
 
 const (

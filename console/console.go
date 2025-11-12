@@ -30,11 +30,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/go-metadium/console/prompt"
+	"github.com/bestyourwallet/go-metadium/internal/jsre"
+	"github.com/bestyourwallet/go-metadium/internal/jsre/deps"
+	"github.com/bestyourwallet/go-metadium/internal/web3ext"
+	"github.com/bestyourwallet/go-metadium/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

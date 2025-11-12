@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/go-metadium/common"
 )
 
 // TestDistributeRewards tests the DistributeRewards function

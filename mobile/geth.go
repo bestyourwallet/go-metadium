@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/go-metadium/core"
+	"github.com/bestyourwallet/go-metadium/eth/downloader"
+	"github.com/bestyourwallet/go-metadium/eth/ethconfig"
+	"github.com/bestyourwallet/go-metadium/ethclient"
+	"github.com/bestyourwallet/go-metadium/ethstats"
+	"github.com/bestyourwallet/go-metadium/internal/debug"
+	"github.com/bestyourwallet/go-metadium/les"
+	"github.com/bestyourwallet/go-metadium/node"
+	"github.com/bestyourwallet/go-metadium/p2p"
+	"github.com/bestyourwallet/go-metadium/p2p/nat"
+	"github.com/bestyourwallet/go-metadium/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

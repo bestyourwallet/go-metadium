@@ -36,10 +36,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	metaapi "github.com/ethereum/go-ethereum/metadium/api"
-	metaminer "github.com/ethereum/go-ethereum/metadium/miner"
+	"github.com/bestyourwallet/go-metadium/ethdb"
+	"github.com/bestyourwallet/go-metadium/log"
+	metaapi "github.com/bestyourwallet/go-metadium/metadium/api"
+	metaminer "github.com/bestyourwallet/go-metadium/metadium/miner"
 	"github.com/hashicorp/go-bexpr"
 )
 
