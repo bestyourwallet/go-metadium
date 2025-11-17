@@ -38,7 +38,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/core/state"
 	"github.com/bestyourwallet/go-metadium/core/types"
 	"github.com/bestyourwallet/go-metadium/core/vm"
-	"github.com/bestyourwallet/go-metadium/crypto/vrf"
+	//"github.com/bestyourwallet/go-metadium/crypto/vrf"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/crypto"
 
