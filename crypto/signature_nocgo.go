@@ -82,7 +82,7 @@ func Sign(hash []byte, prv *ecdsa.PrivateKey) ([]byte, error) {
 		return nil, fmt.Errorf("invalid private key")
 	}
 	defer priv.Zero()
-	sig, _ := btc_ecdsa.SignCompact(&priv, hash, false) // ref uncompressed pubkey
+	sig := btc_ecdsa.SignCompact(&priv, hash, false) // ref uncompressed pubkey
 	//if err != nil {
 	//	return nil, err
 	//}
