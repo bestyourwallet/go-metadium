@@ -37,7 +37,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/common"
 	"github.com/bestyourwallet/go-metadium/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/vrf"
+	//"github.com/ethereum/go-ethereum/crypto/vrf"
 	"github.com/bestyourwallet/go-metadium/event"
 )
 
@@ -589,13 +589,14 @@ func (ks *KeyStore) ProveWithPassphrase(a accounts.Account, passphrase string, m
 
 func prove(k *ecdsa.PrivateKey, msg []byte) ([]byte, []byte, error) {
 	// get private key
-	seed := k.D.Bytes()
-	sk := ed25519.NewKeyFromSeed(seed)
-	pk := sk.Public()
-
-	xx, ok := pk.(ed25519.PublicKey)
-	if !ok {
-		return nil, nil, ErrVrf
-	}
-	return vrf.Prove(xx, sk, msg[:])
+	//seed := k.D.Bytes()
+	//sk := ed25519.NewKeyFromSeed(seed)
+	//pk := sk.Public()
+	//
+	//xx, ok := pk.(ed25519.PublicKey)
+	//if !ok {
+	//	return nil, nil, ErrVrf
+	//}
+	//return vrf.Prove(xx, sk, msg[:])
+	return nil, nil, nil
 }

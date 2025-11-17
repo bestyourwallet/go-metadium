@@ -40,7 +40,7 @@ import (
 	"github.com/bestyourwallet/go-metadium/core/types"
 	"github.com/bestyourwallet/go-metadium/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/vrf"
+	//"github.com/ethereum/go-ethereum/crypto/vrf"
 	"github.com/bestyourwallet/go-metadium/eth/tracers/logger"
 	"github.com/bestyourwallet/go-metadium/log"
 	"github.com/bestyourwallet/go-metadium/p2p"
